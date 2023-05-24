@@ -33,6 +33,11 @@ Then, we have to prepared required weights for [OriginalBaseModel](https://huggi
  path_input = './models/anything-v3-full.safetensors'
  path_output = './models/control_any3_openpose.pth'
  ```
+ At first, you should install some libs
+ 
+ ```bash
+ pip install --user open_clip_torch pytorch_lightning
+ ```
  
  Finally, we can directly run
  ```bash
